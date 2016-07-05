@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Start of boot script"
 
-export FACTER_middelware_address="${middleware_address}"
+export FACTER_middleware_address="${middleware_address}"
 echo "Middleware server is: $FACTER_middleware_address"
 
 echo "Bootstrap puppet and apply role"
